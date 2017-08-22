@@ -2,3 +2,15 @@ body {
   min-height: 2000px;
   padding-top: 70px;
 }
+
+nav {
+  height: 90px
+}
+
+nav .container{
+  margin-top: 17px;
+}
+
+.welcome {
+
+}
