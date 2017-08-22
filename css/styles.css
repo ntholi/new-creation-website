@@ -13,7 +13,6 @@ nav .container{
 
 .welcome {
 	background-image: url("../images/welcome.jpg");
-	border: 1px #666 solid;
 	height: 430px;
 }
 
@@ -28,4 +27,12 @@ nav .container{
 	background-color: #000;
 	color: #fff;
 	opacity: 0.9;
+}
+
+.sections-display{
+	padding: 10px 80px;
+}
+
+.section-btn{
+	border: 1px #666 solid;
 }
