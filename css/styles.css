@@ -4,35 +4,109 @@ body {
 }
 
 nav {
-  height: 80px
+  height: 90px;
 }
 
 nav .container{
-  margin-top: 15px;
+  margin-top: 18px;
 }
 
-.welcome {
+.navbar-brand{
+	background-image: url("../images/logo.png");
+	background-size: 60px 60px;
+  background-repeat: no-repeat;
+  padding-top: 5px;
+}
+
+#brand-name, #brand-subname{
+	margin-left: 60px;
+}
+
+#brand-name{
+	font-weight: bold;
+	color: #6e7e8c;
+	/*font-variant: small-caps;*/
+}
+
+#welcome {
 	background-image: url("../images/welcome.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 30%;
 	height: 430px;
 }
 
-.welcome p {
-	width: 320px;
-	height: 150px;
-	padding: 40px 20px 20px 20px;
-	text-align: center;
+#welcome blockquote {
+	width: 400px;
+	height: 210px;
+	padding: 50px 30px 30px 50px;
+  border-left: 8px solid #fff;
 	position: relative;
-	top: 200px;
-	left: 40px;
+	top: 140px;
+	left: 740px;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 1.3em;
 	background-color: #000;
 	color: #fff;
-	opacity: 0.9;
+	opacity: 0.7;
 }
 
-.sections-display{
-	padding: 10px 80px;
+#welcome blockquote::before{
+  content: open-quote; /*Unicode for Left Double Quote*/
+
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #fff;
+
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top:5px;
 }
 
-.section-btn{
-	border: 1px #666 solid;
+#intro {
+	width: 500px;
+	text-align: center;
+	margin: 30px auto;
+}
+
+.preview-section{
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 1.1em;
+}
+
+.preview-section img{
+	width: 100px;
+	float: left;
+	margin-top: 50px;
+	margin-right: 20px;
+}
+
+#services-preivew, #directions-preivew{
+	text-align: left;
+	display: inline-block;
+	height: 250px;
+	width: 400px;
+	padding: 10px 40px;
+	color: #fff;
+}
+
+#services-preivew:hover, #directions-preivew:hover{
+	text-decoration: none;
+	cursor: pointer;
+	background-color: #999;
+}
+
+#services-preivew{
+	background-color: #5ac5c5;
+	margin-right: 30px;
+}
+
+#directions-preivew{
+	background-color: #f48220;
 }
