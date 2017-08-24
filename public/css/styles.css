@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Pragati+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Convergence');
+
 body {
   min-height: 2000px;
   margin-top: 80px;
@@ -37,6 +40,9 @@ nav .container{
 }
 
 #welcome blockquote {
+  font-family: 'Pragati Narrow', sans-serif;
+  font-weight: normal;
+  font-size: 1.3em;
 	width: 400px;
 	height: 210px;
 	padding: 50px 30px 30px 50px;
@@ -44,9 +50,6 @@ nav .container{
 	position: relative;
 	top: 140px;
 	left: 60%;
-  font-family: sans-serif;
-  font-weight: normal;
-  font-size: 1.3em;
 	background-color: #000;
 	color: #fff;
 	opacity: 0.7;
@@ -68,6 +71,9 @@ nav .container{
 }
 
 #intro {
+  font-family: 'Convergence', sans-serif;
+  letter-spacing: normal;
+  font-size: 1.2em;
   padding: 30px 0;
   margin-bottom: 20px;
   background-color: #fafafa;
@@ -85,6 +91,10 @@ nav .container{
 	text-align: center;
 	margin: 0 auto;
 	font-size: 1.1em;
+}
+
+.preview-section h3{
+  text-decoration: underline;
 }
 
 .preview-section img{
