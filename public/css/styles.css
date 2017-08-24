@@ -131,6 +131,12 @@ nav .container{
 	background-color: #f48220;
 }
 
+#home-main {
+  width: 80%;
+  margin: 20px auto;
+  height: 400px;
+}
+
 #home-main h3{
   color: #fff;
   font-size: 1.3em;
@@ -142,18 +148,12 @@ nav .container{
 #home-main img{
   vertical-align: top;
   display: inline-block;
-  height: 350px;
-}
-
-#services, #directions {
-  width: 70%;
-  margin: 20px auto;
-  height: 400px;
+  width: 49.5%;
 }
 
 #services{
   font-family: 'Mukta Mahee', sans-serif;
-  border: #5ac5c5 1px solid;
+  /*border: #5ac5c5 1px solid;*/
   vertical-align: top;
   margin-top: 90px;
   margin-bottom: 90px;
@@ -161,20 +161,32 @@ nav .container{
 
 #service-times{
   display: inline-block;
-  width: 390px;
+  width: 49.5%;
 }
 
 #service-times h4{
   text-align: center;
+  font-weight: normal;
+  font-size: 2em;
+  padding: 20px 0;
+}
+
+#service-times ul{
+  display: block;
+  margin: auto;
+  width: 300px;
+  font-size: 1.4em;
 }
 
 #directions{
-  border: #f48220 1px solid;
+  /*border: #f48220 1px solid;*/
+  vertical-align: top;
+  margin-top: 90px;
+  margin-bottom: 90px;
 }
 
 #services h3 {
   background-color: #5ac5c5;
-  margin: 0;
 }
 
 #directions h3 {
