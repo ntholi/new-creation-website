@@ -192,3 +192,10 @@ nav .container{
 #directions h3 {
   background-color: #f48220;
 }
+
+#directions p {
+  width: 75%;
+  margin: 40px auto;
+  font-size: 2em;
+  text-align: center;
+}
