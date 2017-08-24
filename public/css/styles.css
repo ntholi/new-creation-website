@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Pragati+Narrow');
 @import url('https://fonts.googleapis.com/css?family=Convergence');
+@import url('https://fonts.googleapis.com/css?family=Mukta+Mahee');
 
 body {
   min-height: 2000px;
@@ -76,6 +77,7 @@ nav .container{
   font-size: 1.2em;
   padding: 30px 0;
   margin-bottom: 20px;
+  color: #424242;
   background-color: #fafafa;
   border-bottom: 2px solid #dbd7d7;
 }
@@ -91,6 +93,7 @@ nav .container{
 	text-align: center;
 	margin: 0 auto;
 	font-size: 1.1em;
+  margin-top: 50px;
 }
 
 .preview-section h3{
@@ -128,37 +131,50 @@ nav .container{
 	background-color: #f48220;
 }
 
-#services, #directions {
-  width: 65%;
-  margin: 20px auto;
-  height: 300px;
-}
-
-#services{
-  border-left: #5ac5c5 3px solid;
-}
-
 #home-main h3{
   color: #fff;
   font-size: 1.3em;
   font-variant: small-caps;
   padding: 12px;
+  margin-bottom: 0;
 }
 
 #home-main img{
-  height: 250px;
+  vertical-align: top;
+  display: inline-block;
+  height: 350px;
 }
 
-#services img{
-  float: left;
+#services, #directions {
+  width: 70%;
+  margin: 20px auto;
+  height: 400px;
+}
+
+#services{
+  font-family: 'Mukta Mahee', sans-serif;
+  border: #5ac5c5 1px solid;
+  vertical-align: top;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+#service-times{
+  display: inline-block;
+  width: 390px;
+}
+
+#service-times h4{
+  text-align: center;
 }
 
 #directions{
-  border-right: #f48220 3px solid;
+  border: #f48220 1px solid;
 }
 
 #services h3 {
   background-color: #5ac5c5;
+  margin: 0;
 }
 
 #directions h3 {
