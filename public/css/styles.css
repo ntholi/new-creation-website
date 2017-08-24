@@ -129,7 +129,7 @@ nav .container{
 }
 
 #services, #directions {
-  width: 70%;
+  width: 65%;
   margin: 20px auto;
   height: 300px;
 }
@@ -137,16 +137,30 @@ nav .container{
 #services{
   border-left: #5ac5c5 3px solid;
 }
-#services h3{
-  padding: 10px;
-  background-color: #5ac5c5;
+
+#home-main h3{
+  color: #fff;
+  font-size: 1.3em;
+  font-variant: small-caps;
+  padding: 12px;
+}
+
+#home-main img{
+  height: 250px;
+}
+
+#services img{
+  float: left;
 }
 
 #directions{
   border-right: #f48220 3px solid;
 }
 
-#directions h3{
-  padding: 10px;
+#services h3 {
+  background-color: #5ac5c5;
+}
+
+#directions h3 {
   background-color: #f48220;
 }
