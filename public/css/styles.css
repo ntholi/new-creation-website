@@ -127,3 +127,26 @@ nav .container{
 #directions-preivew{
 	background-color: #f48220;
 }
+
+#services, #directions {
+  width: 70%;
+  margin: 20px auto;
+  height: 300px;
+}
+
+#services{
+  border-left: #5ac5c5 3px solid;
+}
+#services h3{
+  padding: 10px;
+  background-color: #5ac5c5;
+}
+
+#directions{
+  border-right: #f48220 3px solid;
+}
+
+#directions h3{
+  padding: 10px;
+  background-color: #f48220;
+}
