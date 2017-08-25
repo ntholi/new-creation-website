@@ -1,0 +1,132 @@
+[debug] [2017-08-25T12:58:26.349Z] ----------------------------------------------------------------------
+[debug] [2017-08-25T12:58:26.354Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\it.admin\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2017-08-25T12:58:26.355Z] CLI Version:   3.9.2
+[debug] [2017-08-25T12:58:26.355Z] Platform:      win32
+[debug] [2017-08-25T12:58:26.355Z] Node Version:  v6.9.2
+[debug] [2017-08-25T12:58:26.356Z] Time:          Fri Aug 25 2017 14:58:26 GMT+0200 (South Africa Standard Time)
+[debug] [2017-08-25T12:58:26.356Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-25T12:58:26.422Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-25T12:58:26.425Z] > authorizing via signed-in user
+[debug] [2017-08-25T12:58:26.440Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-08-25T12:58:26.442Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/wwrQg8J6HS_BkXQcT5V1kXQhhcCO0iaoG7JM1JLuNR0',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Aug 25 2017 14:58:26 GMT+0200 (South Africa Standard Time)
+[info] 
+[warn] !  Your CLI authentication needs to be updated to take advantage of new features.
+[warn] !  Please run firebase login --reauth
+[info] 
+[debug] [2017-08-25T12:58:37.798Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-08-25T12:58:37.799Z] > authorizing via signed-in user
+[debug] [2017-08-25T12:58:37.800Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-08-25T12:58:37.800Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/wwrQg8J6HS_BkXQcT5V1kXQhhcCO0iaoG7JM1JLuNR0',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Aug 25 2017 14:58:37 GMT+0200 (South Africa Standard Time)
+[debug] [2017-08-25T12:58:44.607Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-25T12:58:44.634Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/new-creation  
+ Fri Aug 25 2017 14:58:44 GMT+0200 (South Africa Standard Time)
+[debug] [2017-08-25T12:58:56.838Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-25T12:58:56.839Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/new-creation/tokens  
+ Fri Aug 25 2017 14:58:56 GMT+0200 (South Africa Standard Time)
+[debug] [2017-08-25T12:58:58.063Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'new-creation'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] [2017-08-25T12:59:12.632Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/new-creation/uploads/-KsOTOCjpY4E3k8i2Og7?fileCount=141&message=  
+ Fri Aug 25 2017 14:59:12 GMT+0200 (South Africa Standard Time)
+[debug] [2017-08-25T13:00:08.994Z] Error: write ECONNRESET
+    at exports._errnoException (util.js:1022:11)
+    at WriteWrap.afterWrite (net.js:801:14)
+[error] 
+[error] Error: Server Error. write ECONNRESET
+[debug] [2017-08-25T13:01:24.848Z] ----------------------------------------------------------------------
+[debug] [2017-08-25T13:01:24.854Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\it.admin\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2017-08-25T13:01:24.855Z] CLI Version:   3.9.2
+[debug] [2017-08-25T13:01:24.855Z] Platform:      win32
+[debug] [2017-08-25T13:01:24.855Z] Node Version:  v6.9.2
+[debug] [2017-08-25T13:01:24.856Z] Time:          Fri Aug 25 2017 15:01:24 GMT+0200 (South Africa Standard Time)
+[debug] [2017-08-25T13:01:24.856Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-25T13:01:24.892Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-25T13:01:24.894Z] > authorizing via signed-in user
+[debug] [2017-08-25T13:01:24.899Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-08-25T13:01:24.900Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/wwrQg8J6HS_BkXQcT5V1kXQhhcCO0iaoG7JM1JLuNR0',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Aug 25 2017 15:01:24 GMT+0200 (South Africa Standard Time)
+[debug] [2017-08-25T13:01:25.899Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-25T13:01:25.930Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/new-creation  
+ Fri Aug 25 2017 15:01:25 GMT+0200 (South Africa Standard Time)
+[debug] [2017-08-25T13:01:27.217Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-25T13:01:27.218Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/new-creation/tokens  
+ Fri Aug 25 2017 15:01:27 GMT+0200 (South Africa Standard Time)
+[debug] [2017-08-25T13:01:30.152Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'new-creation'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] [2017-08-25T13:01:37.148Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/new-creation/uploads/-KsOTwTNZXGu-JKGKOFX?fileCount=141&message=  
+ Fri Aug 25 2017 15:01:37 GMT+0200 (South Africa Standard Time)
+[debug] [2017-08-25T13:02:59.589Z] Error: socket hang up
+    at createHangUpError (_http_client.js:254:15)
+    at TLSSocket.socketOnEnd (_http_client.js:346:23)
+    at emitNone (events.js:91:20)
+    at TLSSocket.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[error] 
+[error] Error: Server Error. socket hang up
+[debug] [2017-08-25T13:03:22.755Z] ----------------------------------------------------------------------
+[debug] [2017-08-25T13:03:22.759Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\it.admin\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2017-08-25T13:03:22.760Z] CLI Version:   3.9.2
+[debug] [2017-08-25T13:03:22.760Z] Platform:      win32
+[debug] [2017-08-25T13:03:22.760Z] Node Version:  v6.9.2
+[debug] [2017-08-25T13:03:22.761Z] Time:          Fri Aug 25 2017 15:03:22 GMT+0200 (South Africa Standard Time)
+[debug] [2017-08-25T13:03:22.761Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-25T13:03:22.789Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-25T13:03:22.790Z] > authorizing via signed-in user
+[debug] [2017-08-25T13:03:22.799Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/new-creation  
+ Fri Aug 25 2017 15:03:22 GMT+0200 (South Africa Standard Time)
+[debug] [2017-08-25T13:03:33.151Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-25T13:03:33.152Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/new-creation/tokens  
+ Fri Aug 25 2017 15:03:33 GMT+0200 (South Africa Standard Time)
+[debug] [2017-08-25T13:03:34.219Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'new-creation'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] [2017-08-25T13:03:46.084Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/new-creation/uploads/-KsOUR9erx9cjCEVR0mV?fileCount=141&message=  
+ Fri Aug 25 2017 15:03:46 GMT+0200 (South Africa Standard Time)
+[debug] [2017-08-25T13:04:07.456Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-25T13:04:07.457Z] [hosting] .tgz uploaded successfully, waiting for extraction
+[error] 
+[error] Error: File upload failed: Deploy failed.
+[debug] [2017-08-25T13:04:52.954Z] Error Context: {
+  "duration": 46259,
+  "fileCount": 141,
+  "ip": "41.203.190.126",
+  "start": 1503666246373,
+  "status": "failed",
+  "statusMessage": "Deploy failed.",
+  "uid": "104202275395895466005",
+  "uploadedCount": 141,
+  "user": {
+    "email": "ntholi.g@gmail.com",
+    "gaiaId": "104202275395895466005",
+    "image": "https://lh5.googleusercontent.com/-5BdGCk-bY4M/AAAAAAAAAAI/AAAAAAAABA8/MligkNrSrfM/photo.jpg"
+  }
+}
