@@ -3,8 +3,11 @@
 @import url('https://fonts.googleapis.com/css?family=Handlee');
 
 body {
-  min-height: 2000px;
   margin-top: 80px;
+}
+
+main {
+    min-height: 800px;
 }
 
 nav {
@@ -152,14 +155,22 @@ nav .container{
 }
 
 #services{
-  font-family: 'Handlee', cursive;
-  /*border: #5ac5c5 1px solid;*/
+/* -webkit-box-shadow: 0px 0px 26px 2px rgba(90,197,197,1);
+-moz-box-shadow: 0px 0px 26px 2px rgba(90,197,197,1);
+box-shadow: 0px 0px 26px 2px rgba(90,197,197,1); */
   vertical-align: top;
   margin-top: 90px;
   margin-bottom: 90px;
+  border: 1px solid #607D8B;
+}
+
+#services h3 {
+  background-color: #607D8B;
+  margin-top: 0;
 }
 
 #service-times{
+  font-family: 'Handlee', cursive;
   display: inline-block;
   width: 49.5%;
 }
@@ -168,14 +179,27 @@ nav .container{
   text-align: center;
   font-weight: normal;
   font-size: 2.1em;
-  padding: 70px 0 20px 0;
+  padding: 50px 0 20px 0;
 }
 
 #service-times ul{
   display: block;
-  margin: auto;
+  margin: 0 auto;
   width: 300px;
   font-size: 1.5em;
+  list-style: none;
+  padding: 0;
+}
+
+#service-times li {
+  padding-left: 1em; 
+  text-indent: -.7em;
+}
+
+#service-times li::before {
+  content: "• ";
+  font-size: 1.1em;
+  color: #f48220;
 }
 
 #directions{
@@ -183,10 +207,6 @@ nav .container{
   vertical-align: top;
   margin-top: 90px;
   margin-bottom: 90px;
-}
-
-#services h3 {
-  background-color: #5ac5c5;
 }
 
 #directions h3 {
@@ -199,4 +219,34 @@ nav .container{
   font-family: 'Handlee', cursive;
   font-size: 1.8em;
   text-align: center;
+}
+
+/* =Footer
+   ========================================================================== */
+
+footer{
+/*   position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0; */
+  height: 70px;
+  margin-top: 30px;
+  padding: 20px 30px 15px 30px;
+  border-top: 1px solid #e3dddd;
+  background-color: #4f4c4d;
+  color: white;
+}
+
+footer nav{
+  float: right;
+}
+
+footer nav li {
+  padding-left: 20px;
+  display: inline-block;
+}
+footer nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 0.8em;500px
 }
