@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Pragati+Narrow');
 @import url('https://fonts.googleapis.com/css?family=Convergence');
-@import url('https://fonts.googleapis.com/css?family=Mukta+Mahee');
+@import url('https://fonts.googleapis.com/css?family=Handlee');
 
 body {
   min-height: 2000px;
@@ -152,7 +152,7 @@ nav .container{
 }
 
 #services{
-  font-family: 'Mukta Mahee', sans-serif;
+  font-family: 'Handlee', cursive;
   /*border: #5ac5c5 1px solid;*/
   vertical-align: top;
   margin-top: 90px;
@@ -167,15 +167,15 @@ nav .container{
 #service-times h4{
   text-align: center;
   font-weight: normal;
-  font-size: 2em;
-  padding: 20px 0;
+  font-size: 2.1em;
+  padding: 70px 0 20px 0;
 }
 
 #service-times ul{
   display: block;
   margin: auto;
   width: 300px;
-  font-size: 1.4em;
+  font-size: 1.5em;
 }
 
 #directions{
@@ -196,6 +196,7 @@ nav .container{
 #directions p {
   width: 75%;
   margin: 40px auto;
-  font-size: 2em;
+  font-family: 'Handlee', cursive;
+  font-size: 1.8em;
   text-align: center;
 }
